@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations my friend</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column"> 
+            <h1 id="finalScore" style="justify-self: center"></h1>
+            <form>
+                <input type="text"
+                name="username"
+                id="username"
+                placeholder="username" autocomplete="off" required>
+                <button type="submit" 
+                class="button" 
+                id="saveScoreBtn"
+                onclick="saveHighScore(event)"
+                disabled>Save</button>
+            </form>
+            <a class="button flex-center flex-column" href="/trivia.html">Play Again</a>
+            <a class="button flex-center flex-column" href="/index1.html">Quit</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
