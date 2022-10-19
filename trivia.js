@@ -12,27 +12,27 @@ let availableQuestions = [];
 
 let questions = [
     {
-        question: "Question 1",
-        choice1: "A",
-        choice2: "B",
-        choice3: "C",
-        choice4: "D",
+        question: "What is the name of the first chess-playing expert system to win a game against a world champion?",
+        choice1: "Chess Mind",
+        choice2: "Deep Learner",
+        choice3: "Deep Mind",
+        choice4: "Deep Blue",
         answer: 4
     },
     {
-        question: "Question 2",
-        choice1: "A",
-        choice2: "B",
-        choice3: "C",
-        choice4: "D",
+        question: "What does USB stand for?",
+        choice1: "Universal Service Bus",
+        choice2: "Universal Serial Builder",
+        choice3: "Universal Serial Bus",
+        choice4: "Universal Service Builder",
         answer: 3
     },
     {
-        question: "Question 3",
-        choice1: "A",
-        choice2: "B",
-        choice3: "C",
-        choice4: "D",
+        question: "Who was the first computer programmer?",
+        choice1: "Charles Babbage",
+        choice2: "Ada Lovelace",
+        choice3: "Alan Turing",
+        choice4: "Bill Gates",
         answer: 2
     },
 ]

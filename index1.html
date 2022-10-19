@@ -37,7 +37,7 @@
 voices.forEach(function(voice) {
   console.log(voice.name, voice.default ? voice.default :''); 
 }); */
-  var msg2 = new SpeechSynthesisUtterance('Yoo hoo!');
+  var msg2 = new SpeechSynthesisUtterance('Welcome to Trivia Time!');
 msg2.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name == 'Whisper'; })[0];
 
     </script>
